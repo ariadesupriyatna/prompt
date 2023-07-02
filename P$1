@@ -1,0 +1,32 @@
+mengubah tampilan prompt di linux,, dengan cara copy paste langsung ataupun bisa juga dijadikan permanen dengan edit file bashrc,, setiap os berbeda tempatnya,, cari di google aja bro
+
+
+export PS1="\[\e[31m\][\[\e[m\]\[\e[38;5;172m\]\u\[\e[m\]@\[\e[38;5;153m\]\h\[\e[m\] \[\e[38;5;214m\]\W\[\e[m\]\[\e[31m\]]\[\e[m\]\\$ "
+
+
+export PS1="\[\e[31m\][\[\e[m\]\[\e[38;5;172m\]\u\[\e[m\]@\[\e[38;5;153m\]\h\[\e[m\] \[\e[38;5;214m\]\W\[\e[m\]\[\e[31m\]]\[\e[m\]\\$ "
+
+
+export PS1="\e[0;31m[\u@\h \W]\$ \e[m"
+
+
+export PS1="[\\u@\\H \\W \\@]\\$ "
+
+
+GREEN="\[$(tput setaf 2)\]"
+RESET="\[$(tput sgr0)\]"
+PS1="${GREEN}ariadesupriyatna${RESET}> "
+
+
+PS1='$? > '
+
+
+PS1="$(whoami)@$(hostname):$(pwd):\$(date) "
+
+
+PS1="\[\033[0;42m\]\d:\t$ \[\033[0m\]"
+
+
+PS1="\[\033[1;33;42;4m\]\d:\t\[\033[0m\]"
+<span style="text-decoration: underline">Tue Jun 14:23:45:35$</span>
+
